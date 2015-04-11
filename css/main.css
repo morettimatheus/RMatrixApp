@@ -182,8 +182,9 @@ textarea {
     }
 }
 
-
-
+.no-margin-bottom {
+    margin-bottom: 0;
+}
 
 
 
