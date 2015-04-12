@@ -1,14 +1,7 @@
-/*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+@font-face {
+    font-family: RealMadrid;
+    src: url(Montserrat-Regular.ttf);
+}
 
 html,
 button,
@@ -20,6 +13,11 @@ textarea {
 
 body {
     line-height: 1.4;
+    background-image: url("../img/intro-bg.jpg");
+    background-position: top center;
+    font-family: RealMadrid;
+    color: #ffffff;
+
 }
 
 a {
@@ -99,6 +97,11 @@ textarea {
     width: 100%;
     position: absolute;
     padding: 15px;
+    height: 100%;
+    background-image: url("../img/intro-bg.jpg");
+    background-position: top center;
+    font-family: RealMadrid;
+    color: #ffffff;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -190,7 +193,10 @@ textarea {
     float: left;
 }
 .navbar-toggle {
-    margin-top: 0;
+    margin-top: 12.5px;
+    margin-left: 15px;
+    padding: 0;
+    border-radius: 0px;
 }
 .navbar-toggle .icon-bar {
     background-color: black;
@@ -200,7 +206,19 @@ textarea {
 .navbar-brand {
     float: right;
     font-size: 25px;
-    line-height: 13px;
+    line-height: 50px;
+    padding: 0 !important;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+
+}
+.navbar-custom {
+    background-color: rgba(255,255,255,0.7);
+    margin-left: -30px !important;
+    margin-right: -30px !important;
+    margin-top: -15px !important;
 }
 
 
